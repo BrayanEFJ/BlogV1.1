@@ -5,7 +5,7 @@ import MarkdownRendererText from "@/lib/MarkdownRendererText";
 export function Bloque({ bloque }: { bloque: any }) {
   return (
     <div className=" mb-2">
-      <div className="py-1 rounded-lg bg-white ">
+      <div className="py-1 rounded-lg  ">
         {bloque.tipo === "texto" && (
           <MarkdownRendererText contenido={bloque.contenido} />
         )}

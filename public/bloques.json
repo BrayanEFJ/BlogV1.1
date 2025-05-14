@@ -7,7 +7,8 @@
   {
     "id": 2,
     "tipo": "imagen",
-    "contenido": "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg"
+    "contenido": "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg",
+    "alt":"gato naranja"
   },
   {
     "id": 3,
