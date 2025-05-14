@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-h1 {
+    @apply text-2xl font-bold my-4 text-pink-500;
+}
+
+.text-h2 {
+    @apply text-xl font-semibold my-3;
+}
+
+.text-h3 {
+    @apply text-lg font-medium my-2;
+}
+
+.text-link {
+    @apply text-blue-500 underline
+}
+
+.text-red{
+    @apply text-red-600
+}
