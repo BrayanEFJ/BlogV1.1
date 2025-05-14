@@ -3,21 +3,36 @@
 @tailwind utilities;
 
 .text-h1 {
-    @apply text-2xl font-bold my-4 text-pink-500;
+  @apply text-2xl font-bold my-4 text-pink-500;
 }
 
 .text-h2 {
-    @apply text-xl font-semibold my-3;
+  @apply text-xl font-semibold my-3;
 }
 
 .text-h3 {
-    @apply text-lg font-medium my-2;
+  @apply text-lg font-medium my-2;
 }
 
 .text-link {
-    @apply text-blue-500 underline
+  @apply text-blue-500 underline;
 }
 
-.text-red{
-    @apply text-red-600
+.text-list {
+  @apply ml-4 list-disc;
+}
+.text-quote {
+  @apply border-l-4 border-gray-300 pl-4 italic my-4;
+}
+.text-italic {
+  @apply italic text-blue-500;
+}
+.text-code {
+  @apply text-sm font-mono text-green-500;
+}
+.block-inline {
+  @apply bg-gray-100 px-1 rounded;
+}
+.block {
+  @apply bg-gray-100 p-2 rounded my-2 overflow-x-auto;
 }

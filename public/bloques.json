@@ -1,18 +1,73 @@
 [
   {
     "id": 1,
-    "tipo": "texto",
-    "contenido": "# Bienvenido a la página"
+    "type": "text",
+    "content": "# Bienvenido a la página"
   },
   {
     "id": 2,
-    "tipo": "imagen",
-    "contenido": "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg",
-    "alt":"gato naranja"
+    "type": "image",
+    "content": "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg",
+    "alt": "Gato con caída de pelo"
   },
   {
     "id": 3,
-    "tipo": "texto",
-    "contenido": "Transformamos nuestras metas  en logros. **Enfócate** y _actúa_ con claridad usando sistemas."
+    "type": "text",
+    "content": "Transformamos nuestras metas en logros. **Enfócate** y _actúa_ con claridad usando sistemas. 🙂"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "content": "| Producto       | Precio | Stock |\n|----------------|--------|--------|\n| Galletas       | $1.50  | 25     |\n| Jugo de naranja| $2.00  | 10     |\n| Pan integral   | $1.80  | 15     |"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "content": "## Subtítulo Importante\nEste es un subtítulo con content adicional debajo."
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "content": "### Tercer Nivel\nUn encabezado de tercer nivel para secciones menores."
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "content": "- Primer ítem\n- Segundo ítem\n- Tercer ítem"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "content": "[Visita nuestro sitio](https://example.com)"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "content": "> Este es un blockquote que resalta una idea clave."
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "content": "Aquí tienes un fragmento de código inline como `console.log('Hola mundo')`"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "content": "```\nfunction saludar() {\n  console.log('Hola mundo');\n}\n```"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "content": "**text en negrita** y _text en cursiva_ combinados."
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "content": "---"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "content": "- [x] Tarea completada\n- [ ] Tarea pendiente"
   }
 ]
